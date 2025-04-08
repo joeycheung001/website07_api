@@ -19,7 +19,7 @@ h1 {
 .black-box {
     margin: auto;
     height: 125px;
-    max-width: 80%;
+    max-width: 500px;
 
     border-radius: 10px;
     background-color: #853e3c;
@@ -34,7 +34,7 @@ h1 {
 
 #all-items {
     margin: auto;
-    max-width: 70%;
+    max-width: 400px;
     min-height: 300px;
     margin-top: -10px;
     margin-bottom: -10px;
@@ -80,8 +80,13 @@ h1 {
     box-shadow: 5px 5px #edac66;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
+    .black-box {
+        border-radius: 0;
+    }
     #randomCat {
-        max-width: 60%;
+        max-width: 75%;
+        border-width: 5vw;
+        border-bottom-width: 15vw;
     }
 }
