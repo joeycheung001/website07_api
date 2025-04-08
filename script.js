@@ -5,8 +5,7 @@ function randomCatImage() {
     let catImage = document.getElementById('randomCat');
     catImage.style.display = "block";
 
-    fetch(url,{headers: {
-          'x-api-key': api_key}})
+    fetch(url,{headers: {'x-api-key': api_key}})
         .then((response) => {return response.json();})
         .then((data) => {
             let imagesData = data;
