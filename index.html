@@ -2,20 +2,24 @@
 <html>
     <head>
         <title>WIWIWI API</title>
+        <meta name="viewport" content="width=device-width" />
+
+        <script src="script.js"></script>
+        
         <link rel="stylesheet" href="style.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Erica+One&family=Kirang+Haerang&family=Sigmar&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="black-box">
+        <div class="black-box" id="header-box">
             <div class="center-height">
                 <h1 id="title">WIWIWI</h1>
-                <p id="title">BAKERI</p>
+                <h1 id="subtitle">BAKERI</p>
             </div>
         </div>
 
-        <div id="all-items">
+        <div id="main-box">
             <p id="question">want to see some cats?</p>
             <button id="button" onClick="randomCatImage()">yes !!</button>
     
@@ -23,8 +27,7 @@
             <img id="randomCat">
         </div>
 
-        <div class="black-box"></div>
-        
-        <script src="script.js"></script>
+        <div class="black-box" id="footer-box"></div>
+        <div class="edge"></div>
     </body>
 </html>
